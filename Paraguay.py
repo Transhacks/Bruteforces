@@ -5,7 +5,7 @@ from selenium. webdriver. common. keys import Keys
 from selenium.webdriver.common.by import By
 import time
 
-browser=webdriver.Chrome()
+browser=webdriver.Firefox()
 browser.get("http://contestador.personal.com.py:8080/WebUser/bin/wicket/page?3")
 
 name = input("Escribe numero de telefono: ")
