@@ -5,13 +5,15 @@ Modulos de Python usados:
 
 Selenium: https://github.com/SeleniumHQ
 
-zxtouch: https://github.com/xuan32546/IOS13-SimulateTouch/tree/0.0.6/layout/usr/lib/python3.7/site-packages/zxtouch
+zxtouch: https://github.com/xuan32546/IOS13-SimulateTouch/tree/0.0.6/layout/usr/lib/python3.7/site-packages/zxtouch (iOS)
 
-En caso de usar Chrome, cambiar browser=webdriver.Firefox() a browser=webdriver.Chrome() y poner el siguiente programa que requieras en la misma carpeta del script 
+En caso de usar Chrome, cambiar browser=webdriver.Firefox() a browser=webdriver.Chrome() y descargar el siguiente driver en la misma carpeta del script. 
 
 https://chromedriver.chromium.org/downloads
 
-Y en el caso de usar Firefox, dejarlo igual y poner el siguiente programa que requieras en la misma carpeta del script 
+Y en el caso de usar Firefox, dejarlo igual y descargar el siguiente driver en la misma carpeta del script.
 
 https://github.com/mozilla/geckodriver/releases
+
+Y para el CallBruteforce, es necesario un iPhone con Jailbreak, para más informacion ve aqui: https://github.com/xuan32546/IOS13-SimulateTouch
 
