@@ -1,5 +1,5 @@
 # Bruteforces
-Coleccion de diferentes bruteforces creados para diferentes paginas de buzones de voz visuals en Python 3.
+Coleccion de diferentes bruteforces creados para diferentes paginas de buzones de voz visuales en Python 3.
 
 Modulos de Python usados:
 
