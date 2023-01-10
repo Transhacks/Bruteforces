@@ -15,7 +15,7 @@ element.submit()
 time.sleep(1)
 
 i = 0
-while i < 10000:
+while i < 1000:
         
     element=browser.find_element(By.ID,"password")
 
