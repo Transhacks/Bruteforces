@@ -11,9 +11,9 @@ En caso de usar Chrome, cambiar browser=webdriver.Firefox() a browser=webdriver.
 
 https://chromedriver.chromium.org/downloads
 
-Y en el caso de usar Firefox, dejarlo igual y descargar el siguiente driver en la misma carpeta del script.
+En el caso de usar Firefox, dejarlo igual y descargar el siguiente driver en la misma carpeta del script.
 
 https://github.com/mozilla/geckodriver/releases
 
-Y para el CallBruteforce, es necesario un iPhone con Jailbreak, para más informacion ve aqui: https://github.com/xuan32546/IOS13-SimulateTouch
+En el caso de CallBruteforce.py es necesario un iPhone con Jailbreak, para más informacion ve aqui: https://github.com/xuan32546/IOS13-SimulateTouch
 
