@@ -10,7 +10,7 @@ browser=webdriver.Chrome()
 browser.get("https://m-ums.opt.nc/index.php")
 
 name = input("Escribe numero de telefono: ")
-name2 = input("Escriba la clavel del telefono: ")
+name2 = input("Escriba la clave del telefono: ")
 
 element=browser.find_element(By.ID,"login")
 element.send_keys(name)
