@@ -9,18 +9,21 @@ coord_dict = {str(i): coordinates[i] for i in range(10)}
 device = zxtouch("192.168.1.161")
 time.sleep(2)
 
-for i in range(9999, -1, -1):
-    number_str = str(i).zfill(4)
-
-    for digit in number_str:
-        coord = coord_dict[digit]
-        device.touch(TOUCH_DOWN, 1, *coord)
+try:
+    for i in range(9999, -1, -1):
+        number_str = str(i).zfill(4)
+    
+        for digit in number_str:
+            coord = coord_dict[digit]
+            device.touch(TOUCH_DOWN, 1, *coord)
+            time.sleep(0.2)
+            device.touch(TOUCH_UP, 1, *coord)
+            time.sleep(0.2)
+    
+        device.touch(TOUCH_DOWN, 1, *coordinates[-1])
         time.sleep(0.2)
-        device.touch(TOUCH_UP, 1, *coord)
-        time.sleep(0.2)
-
-    device.touch(TOUCH_DOWN, 1, *coordinates[-1])
-    time.sleep(0.2)
-    device.touch(TOUCH_UP, 1, *coordinates[-1])
-    time.sleep(2)
-    print(i)
+        device.touch(TOUCH_UP, 1, *coordinates[-1])
+        time.sleep(2)
+        print(i)
+finally:
+    device.disconnect()
